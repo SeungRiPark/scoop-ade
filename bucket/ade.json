@@ -1,0 +1,33 @@
+{
+    "version": "0.1.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/SeungRiPark/AdeTool/releases/download/v0.1.0/ade_0.1.0_windows_amd64.zip",
+            "bin": [
+                "ade-app.exe",
+                "ade.exe"
+            ],
+            "hash": "787949cf2fafe7fe398823f4fc4720be15233d9ae842da442bdc84b38d8af49b"
+        },
+        "arm64": {
+            "url": "https://github.com/SeungRiPark/AdeTool/releases/download/v0.1.0/ade_0.1.0_windows_arm64.zip",
+            "bin": [
+                "ade-app.exe",
+                "ade.exe"
+            ],
+            "hash": "0034c44e555aae994e862f370a53dbe0a648270a87a19616fe0cb5b72d4b8d0b"
+        }
+    },
+    "homepage": "https://github.com/SeungRiPark/AdeTool",
+    "license": "MIT",
+    "description": "Run many AI coding agents side by side, from one static binary, Windows first.",
+    "post_install": [
+        "try { \u0026 \"$dir\\ade.exe\" app register | Out-Null } catch { Write-Host \"ade app register failed: $_\" }"
+    ],
+    "shortcuts": [
+        [
+            "ade-app.exe",
+            "ADE"
+        ]
+    ]
+}
