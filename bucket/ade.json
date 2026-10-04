@@ -1,21 +1,21 @@
 {
-    "version": "0.4.0",
+    "version": "0.5.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/SeungRiPark/AdeTool/releases/download/v0.4.0/ade_0.4.0_windows_amd64.zip",
+            "url": "https://github.com/SeungRiPark/AdeTool/releases/download/v0.5.0/ade_0.5.0_windows_amd64.zip",
             "bin": [
                 "ade-app.exe",
                 "ade.exe"
             ],
-            "hash": "61160586c214d4195159c8592a5ac051b36bf35f21b4d15a3a7fc10c46a10f18"
+            "hash": "da0b72acb3d5a9b2c118722576b6a823fc33101dda11efac55da1efb2ac72eaf"
         },
         "arm64": {
-            "url": "https://github.com/SeungRiPark/AdeTool/releases/download/v0.4.0/ade_0.4.0_windows_arm64.zip",
+            "url": "https://github.com/SeungRiPark/AdeTool/releases/download/v0.5.0/ade_0.5.0_windows_arm64.zip",
             "bin": [
-                "ade-app.exe",
-                "ade.exe"
+                "ade.exe",
+                "ade-app.exe"
             ],
-            "hash": "2d57471dfd904f3f1a3395baf8eb3f7ef86a3c920e8758f952b0984ed8ad803b"
+            "hash": "c90fad40c91ab0028225ba3c59938b37934f566fa627b43ca3709fc83c13f843"
         }
     },
     "homepage": "https://github.com/SeungRiPark/AdeTool",
